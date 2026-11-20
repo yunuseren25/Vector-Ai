@@ -36,7 +36,6 @@
       display: flex;
     }
 
-    /* Sidebar */
     .sidebar {
       width: 270px;
       background: var(--sidebar);
@@ -171,7 +170,6 @@
       text-align: center;
     }
 
-    /* Main Workspace */
     .main {
       flex: 1;
       display: flex;
@@ -252,7 +250,6 @@
       font-variant-numeric: tabular-nums;
     }
 
-    /* Messages */
     .chat-container {
       flex: 1;
       overflow-y: auto;
@@ -383,7 +380,6 @@
       color: var(--text);
     }
 
-    /* Composer */
     .composer-wrap {
       padding: 14px 18px 20px;
       display: flex;
@@ -564,7 +560,6 @@
     const sendBtnEl = document.getElementById("sendBtn");
     const speedBadgeEl = document.getElementById("speedBadge");
 
-    // Initialize
     document.querySelectorAll(".mode-pill").forEach((btn) => {
       btn.classList.toggle("active", btn.dataset.mode === currentMode);
     });
